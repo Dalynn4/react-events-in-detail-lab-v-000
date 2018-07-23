@@ -11,7 +11,7 @@ class CoordinatesButton extends React.Component {
   }
   render() {
     return (
-      <button onClick={this.coordinates}
+      <button onClick={this.props.onReceiveCoordinates({this.coordinates})}
     )
   }
 
